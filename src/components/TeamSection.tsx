@@ -117,22 +117,12 @@ export const TeamSection = () => {
                 <span>📧</span>
                 <span className="text-neon-blue">hteshpooja@gmail.com</span>
               </div>
-              
-              <div className="flex items-center justify-center space-x-2">
-                <span>🐱</span>
-                <span className="text-neon-blue">github.com/prism-credit</span>
-              </div>
-              
-              <div className="flex items-center justify-center space-x-2">
-                <span>📚</span>
-                <span className="text-neon-blue">docs.prism-credit.com</span>
-              </div>
             </div>
             
             <div className="mt-6 pt-6 border-t border-muted">
               <div className="text-xs text-muted-foreground">
                 Built with ❤️ by DTU & GBU Students<br />
-                © 2024 PRISM Team
+                © 2025 PRISM Team
               </div>
             </div>
           </Card>
