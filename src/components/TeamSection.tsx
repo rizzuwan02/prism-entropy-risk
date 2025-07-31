@@ -2,32 +2,36 @@ import { Card } from '@/components/ui/card';
 
 const teamMembers = [
   {
-    name: 'Arjun Sharma',
-    role: 'ML Engineer & Team Lead',
-    expertise: 'Deep Learning, Graph Neural Networks',
+    name: 'Hitesh Mehta',
+    role: 'Computer Science',
+    expertise: '3rd Year Student',
     avatar: '👨‍💻',
-    background: 'Ex-Google, IIT Hyderabad CSE'
+    background: 'Delhi Technological University',
+    email: 'hteshpooja@gmail.com'
   },
   {
-    name: 'Priya Patel',
-    role: 'Data Scientist',
-    expertise: 'Statistical Modeling, Risk Analytics',
-    avatar: '👩‍🔬',
-    background: 'Ex-Goldman Sachs, IIT Hyderabad MS'
+    name: 'Nipun Taneja',
+    role: 'Electronics & Communication',
+    expertise: '3rd Year Student',
+    avatar: '👨‍🔬',
+    background: 'Delhi Technological University',
+    email: 'nipuntaneja05@gmail.com'
   },
   {
-    name: 'Rohit Kumar',
-    role: 'Backend Engineer',
-    expertise: 'Distributed Systems, APIs',
+    name: 'Himanshu Mourya',
+    role: 'Electronics & Communication',
+    expertise: '3rd Year Student',
     avatar: '👨‍⚙️',
-    background: 'Ex-Microsoft, IIT Hyderabad BTech'
+    background: 'Delhi Technological University',
+    email: 'himanshumouryaa.2004@gmail.com'
   },
   {
-    name: 'Anisha Singh',
-    role: 'Product Manager',
-    expertise: 'Fintech, User Research',
+    name: 'Aarushi Sangal',
+    role: 'Computer Science with AI',
+    expertise: '3rd Year Student',
     avatar: '👩‍💼',
-    background: 'Ex-Paytm, IIT Hyderabad MBA'
+    background: 'Gautam Buddha University',
+    email: 'sangalaarushi2004cef@gmail.com'
   }
 ];
 
@@ -40,15 +44,15 @@ export const TeamSection = () => {
             Meet the <span className="gradient-text">Team</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            Passionate innovators from IIT Hyderabad building the future of credit assessment
+            Passionate innovators from DTU & GBU building the future of credit assessment
           </p>
           
           {/* University Badge */}
           <div className="inline-flex items-center space-x-4 glass-card px-6 py-3 rounded-full">
             <div className="text-2xl">🏛️</div>
             <div>
-              <div className="font-bold neon-blue">IIT Hyderabad</div>
-              <div className="text-sm text-muted-foreground">Bank of India Innovation Challenge</div>
+              <div className="font-bold neon-blue">DTU & GBU</div>
+              <div className="text-sm text-muted-foreground">Delhi Technological University & Gautam Buddha University</div>
             </div>
           </div>
         </div>
@@ -111,7 +115,7 @@ export const TeamSection = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center justify-center space-x-2">
                 <span>📧</span>
-                <span className="text-neon-blue">team-prism@iiith.ac.in</span>
+                <span className="text-neon-blue">hteshpooja@gmail.com</span>
               </div>
               
               <div className="flex items-center justify-center space-x-2">
@@ -127,7 +131,7 @@ export const TeamSection = () => {
             
             <div className="mt-6 pt-6 border-t border-muted">
               <div className="text-xs text-muted-foreground">
-                Built with ❤️ at IIT Hyderabad<br />
+                Built with ❤️ by DTU & GBU Students<br />
                 © 2024 PRISM Team
               </div>
             </div>

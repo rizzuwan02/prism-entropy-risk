@@ -97,9 +97,9 @@ export const ArchitectureSection = () => {
         </div>
 
         {/* Interactive Architecture Diagram */}
-        <div className="relative mb-16">
-          <div className="glass-card p-8 rounded-xl min-h-96">
-            <svg className="w-full h-96" viewBox="0 0 100 80">
+        <div className="relative mb-16 overflow-hidden">
+          <div className="glass-card p-8 rounded-xl">
+            <svg className="w-full h-80 md:h-96" viewBox="0 0 100 80" preserveAspectRatio="xMidYMid meet">
               {/* Connection Lines */}
               <g stroke="hsl(var(--neon-blue))" strokeWidth="0.3" opacity="0.6">
                 <line x1="20" y1="25" x2="35" y2="25" className="animate-pulse" />
@@ -165,7 +165,7 @@ export const ArchitectureSection = () => {
 
           {/* Component Details */}
           {hoveredComponent && (
-            <div className="absolute top-4 right-4 glass-card p-4 rounded-lg max-w-xs fade-in">
+            <div className="absolute top-4 right-4 glass-card p-4 rounded-lg max-w-xs fade-in z-10">
               <h4 className="font-bold neon-blue mb-2">{hoveredComponent}</h4>
               <p className="text-sm text-muted-foreground">
                 {architectureComponents.find(c => c.name === hoveredComponent)?.description}

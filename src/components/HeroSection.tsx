@@ -36,7 +36,7 @@ export const HeroSection = () => {
         {/* Header Badge */}
         <div className="inline-block mb-6 fade-in">
           <span className="px-4 py-2 bg-neon-blue/10 border border-neon-blue/30 rounded-full text-neon-blue text-sm font-medium">
-            IIT Hyderabad × Bank of India Hackathon
+            DTU & GBU Students
           </span>
         </div>
 
@@ -107,7 +107,7 @@ export const HeroSection = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
           <div className="w-6 h-10 border-2 border-neon-blue rounded-full flex justify-center">
             <div className="w-1 h-3 bg-neon-blue rounded-full mt-2 animate-pulse"></div>
           </div>
